@@ -37,4 +37,5 @@ end
 def full?(board)
   board.all? do |space|
   position_taken?(board,space)
+  end
 end
