@@ -14,3 +14,11 @@ WIN_COMBINATIONS = [
   [0,4,8], #top left across
   [2,4,6] # top right across
 ]
+
+def won?(board)
+  WIN_COMBINATIONS.each do |win_combo|
+    win_combo[0] = position_1
+    win_combo[1] = position_2
+    win_combo[2] = position_3
+
+    
